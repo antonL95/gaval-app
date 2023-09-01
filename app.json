@@ -1,10 +1,24 @@
 {
   "expo": {
     "name": "gaval-app",
-    "slug": "gaval-app",
+    "slug": "gaval",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "c180b8b6-f622-43cf-a21a-fba04db6036a"
+      }
+    },
+    "owner": "antonl96",
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow Gaval to access camera."
+        }
+      ]
     ]
   }
 }
